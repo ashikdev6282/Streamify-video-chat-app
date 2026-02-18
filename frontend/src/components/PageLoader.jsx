@@ -1,6 +1,6 @@
 import { LoaderIcon } from 'lucide-react'
 import React from 'react'
-import { useThemeStore } from '../store/useThemestore.js';
+import { useThemeStore } from '../store/useThemeStore.js';
 
 const PageLoader = () => {
 
