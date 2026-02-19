@@ -3,7 +3,7 @@ import useAuthUser from "../hooks/useAuthUser.js";
 import { useLocation, Link } from "react-router-dom";
 import { ShipWheelIcon, HomeIcon, UsersIcon, BellIcon } from "lucide-react";
 
-export const Sidebar = () => {
+const Sidebar = () => {
   const { authUser } = useAuthUser();
   const locattion = useLocation();
   const currentPath = locattion.pathname;
@@ -71,3 +71,4 @@ export const Sidebar = () => {
     </aside>
   );
 };
+export default Sidebar;
