@@ -7,7 +7,7 @@ import ThemeSelector from "./ThemeSelector.jsx";
 import { useLogout } from "../hooks/useLogout.js";
 
 
-export const Navbar = () => {
+export const Navbar = ({ setIsSidebarOpen }) => {
   const { authUser } = useAuthUser();
   const location = useLocation();
   const isChatPage = location.pathname.startsWith("/chat");
