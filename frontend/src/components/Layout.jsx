@@ -19,7 +19,7 @@ export const Layout = ({ children, showSidebar = false }) => {
                 z-40
                 h-full
                 w-64
-                bg-neutral-900
+                bg-green-900
                 transform
                 transition-transform
                 duration-300
