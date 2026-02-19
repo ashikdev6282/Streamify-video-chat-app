@@ -6,7 +6,7 @@ export const Layout = ({ children, showSidebar = false }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
   return (
-    <div className="h-screen overflow-hidden bg-neutral-950 text-white">
+    <div className="h-screen overflow-hidden">
 
       <div className="flex h-full">
 
